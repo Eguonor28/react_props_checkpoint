@@ -20,7 +20,6 @@ const PlayerList = () => {
             jerseyNumber={player.jerseyNumber}
             age={player.age}
             image={player.image}
-            image2=
           />
         ))}
       </div>
