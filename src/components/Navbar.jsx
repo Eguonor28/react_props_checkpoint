@@ -1,5 +1,5 @@
 import React from "react";
-
+//Navbar component
 const Navbar = () => {
   return (
     <div className="">

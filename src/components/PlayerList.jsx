@@ -1,7 +1,7 @@
 import React from "react";
 import playerDetails from "../data/player";
 import Player from "./Player";
-
+//component for all players
 const PlayerList = () => {
   return (
     <div>
@@ -9,6 +9,7 @@ const PlayerList = () => {
         Best Players Of All Time
       </div>
       <div className="mx-auto grid grid-cols md:grid-cols-2 max-w-4xl space-y-6 text-sm justify-center">
+        {/* map function to get each attribute for data in player.js */}
         {playerDetails.map((player) => (
           <Player
             key={player.id}
@@ -19,6 +20,7 @@ const PlayerList = () => {
             jerseyNumber={player.jerseyNumber}
             age={player.age}
             image={player.image}
+            image2=
           />
         ))}
       </div>

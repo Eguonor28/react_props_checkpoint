@@ -1,5 +1,5 @@
 import React from "react";
-
+//Each player component
 const Player = ({ id, name, team, nationality, jerseyNumber, age, image }) => {
   return (
     <div className="">

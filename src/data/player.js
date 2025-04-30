@@ -1,3 +1,4 @@
+// An array of objects containing attribute for each player
 const playerDetails = [
   {
     id: 1,
